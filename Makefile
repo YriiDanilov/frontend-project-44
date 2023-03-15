@@ -3,3 +3,6 @@ install: # установить зависимости
 
 brain-games: # запуск игры brain-games
   node bin/brain-games.js
+
+publish: 
+  npm publish --dry-run
