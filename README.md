@@ -9,3 +9,6 @@
 
 ### Asciinema my brain-even
 https://asciinema.org/a/eYT057FzLmB8un8FyvCSKYpfX
+
+### Asciinema my brain-even
+https://asciinema.org/a/b0gy24InJbImvKmzEVHo16UyC
