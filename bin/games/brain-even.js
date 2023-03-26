@@ -9,8 +9,8 @@ const isEven = (number) => number % 2 === 0;
 const gameFunction = () => {
 
     const question = getRandomNumber(1, 10);
-    const rigthAnswer = isEven(question) ? 'yes' : 'no';
-    return [question, rigthAnswer];
+    const rightAnswer = isEven(question) ? 'yes' : 'no';
+    return [question, rightAnswer];
 };
 
 const startGame = () => {

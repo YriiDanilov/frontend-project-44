@@ -29,8 +29,8 @@ const gameFunction = () => {
     const num1 = getRandomNumber(1, 10);
     const num2 = getRandomNumber(1, 10);
     const question = `${num1} ${getRandomSign} ${num2}`;
-    const rigthAnswer = String(resultExpression(num1, num2, getRandomSign));
-    return [question, rigthAnswer]
+    const rightAnswer = String(resultExpression(num1, num2, getRandomSign));
+    return [question, rightAnswer]
 };
 
 const startGame = () => {
