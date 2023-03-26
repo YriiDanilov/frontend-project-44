@@ -8,13 +8,13 @@ const runGame = (discritption, gameFunction) => {
 
     const count = 3;
     for (let i = 0; i < count; i += 1) {
-        const [question, rigthAnswer] = gameFunction();
+        const [question, rightAnswer] = gameFunction();
         console.log(`${'Question: '}${question}`);
         const answerUser = readlineSync.question('Your answer: ');
-        if (rigthAnswer === answerUser) {
+        if (rightAnswer === answerUser) {
             console.log('Correct!');
         } else {
-            console.log(`${answerUser}${' is wrong answer ;(. Correct answer was '}${rigthAnswer}${'.'}\n${'Let\'s try again, '}${name}`);
+            console.log(`${answerUser}${' is wrong answer ;(. Correct answer was '}${rightAnswer}${'.'}\n${'Let\'s try again, '}${name}`);
             return;
         }
     }
