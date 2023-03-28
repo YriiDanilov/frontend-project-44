@@ -16,7 +16,7 @@ const gameFunction = () => {
     const rigthAnswer = String(result[index]);
     const hideNumber = '..';
     result[index] = hideNumber;
-    const question = String(result);
+    const question = result.join(' ');
     return [question, rigthAnswer];
 };
 
