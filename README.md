@@ -49,7 +49,7 @@ sudo npm link
 brain-even
 ```
 
-[ демо-версия ](https://asciinema.org/a/eYT057FzLmB8un8FyvCSKYpfX)
+[![демо](https://asciinema.org/a/eYT057FzLmB8un8FyvCSKYpfX.svg)](https://asciinema.org/a/eYT057FzLmB8un8FyvCSKYpfX)
 
 ### 2. Калькулятор. Арифметические выражения, которые необходимо вычислить.  
 Суть игры :  
@@ -61,7 +61,7 @@ brain-even
 brain-calc
 ```
 
-[ демо-версия ](https://asciinema.org/a/b0gy24InJbImvKmzEVHo16UyC)
+[![демо](https://asciinema.org/a/b0gy24InJbImvKmzEVHo16UyC.svg)](https://asciinema.org/a/b0gy24InJbImvKmzEVHo16UyC)
 
 ### 3. Определение наибольшего общего делителя.  
 Суть игры:  
@@ -73,7 +73,7 @@ brain-calc
 brain-gcd
 ```
 
-[ демо-версия ](https://asciinema.org/a/87ApoQUqXEipCAIeSNK8rXdoa)
+[![демо](https://asciinema.org/a/87ApoQUqXEipCAIeSNK8rXdoa.svg)](https://asciinema.org/a/87ApoQUqXEipCAIeSNK8rXdoa)
 
 ### 4. Прогрессия. Поиск пропущенных чисел в последовательности чисел.  
 Суть игры:
@@ -85,7 +85,7 @@ brain-gcd
 brain-progression
 ```
 
-[ демо-версия ](https://asciinema.org/a/87ApoQUqXEipCAIeSNK8rXdoa)  
+[![демо](https://asciinema.org/a/87ApoQUqXEipCAIeSNK8rXdoa.svg)](https://asciinema.org/a/87ApoQUqXEipCAIeSNK8rXdoa)  
 
 ### 5. Определение простого числа.  
 Суть игры:
@@ -97,5 +97,5 @@ brain-progression
 brain-prime
 ```
 
-[ демо-версия ](https://asciinema.org/a/L1trGgJF8iQpStiSWgr7i5Zwp)
+[![демо](https://asciinema.org/a/L1trGgJF8iQpStiSWgr7i5Zwp.svg)](https://asciinema.org/a/L1trGgJF8iQpStiSWgr7i5Zwp)
 
