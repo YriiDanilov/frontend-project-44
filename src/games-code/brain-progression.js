@@ -2,7 +2,7 @@
 import { getRandomNumber } from "../getRandomNumber.js";
 import { runGame } from "../../src/index.js";
 
-const discription = 'What number is missing in the progression?';
+const discription = "What number is missing in the progression?";
 
 const gameFunction = () => {
     let result = [];
@@ -14,14 +14,14 @@ const gameFunction = () => {
     }
     let index = getRandomNumber(1, 10);
     const rigthAnswer = String(result[index]);
-    const hideNumber = '..';
+    const hideNumber = "..";
     result[index] = hideNumber;
-    const question = result.join(' ');
+    const question = result.join(" ");
     return [question, rigthAnswer];
 };
 
 const brainProgression = () => {
     runGame(discription, gameFunction);
-}
+};
 
 export default brainProgression;
