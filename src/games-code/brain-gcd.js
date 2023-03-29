@@ -5,15 +5,12 @@ import runGame from '../index.js';
 const discription = 'Find the greatest common divisor of given numbers.';
 
 const resultExpression = (a, b) => {
-  let c;
-  let a;
-  let b;
-  while (b !== 0) {
-    c = b;
-    b = a % b;
-    a = c;
+  if (a === 0 || b === 0) {
+    return a + b;
+  } else if (a > b) {
+    return resultExpression(a - b, b);
   }
-  return a;
+  return resultExpression(a, b - a);
 };
 
 const gameFunction = () => {
