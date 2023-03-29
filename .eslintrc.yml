@@ -25,4 +25,5 @@ rules:
     -ignorePackeges
     -js: always
   no-underscore-dangle: [2, { "allow": ["__filename", '__dirname'] }]
-  indent: ["error", 2, 4, 6, 8, 10, 12]
+  no-param-reassign: 0
+
