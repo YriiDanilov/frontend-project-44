@@ -6,6 +6,8 @@ const discription = 'Find the greatest common divisor of given numbers.';
 
 const resultExpression = (a, b) => {
   let c;
+  let a;
+  let b;
   while (b !== 0) {
     c = b;
     b = a % b;
