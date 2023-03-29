@@ -7,7 +7,8 @@ const discription = 'Find the greatest common divisor of given numbers.';
 const resultExpression = (a, b) => {
   if (a === 0 || b === 0) {
     return a + b;
-  } else if (a > b) {
+  }
+  if (a > b) {
     return resultExpression(a - b, b);
   }
   return resultExpression(a, b - a);
