@@ -25,3 +25,4 @@ rules:
     -ignorePackeges
     -js: always
   no-underscore-dangle: [2, { "allow": ["__filename", '__dirname'] }]
+  eslint no-param-reassign: "error"

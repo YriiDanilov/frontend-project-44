@@ -1,9 +1,8 @@
 #!/usr/bin/env node
-import { getRandomNumber } from "../getRandomNumber.js";
-import { runGame } from "../../src/index.js";
+import getRandomNumber from '../getRandomNumber.js';
+import runGame from '../index.js';
 
-const discription =
-    'Answer "yes" if given number is prime. Otherwise answer "no".';
+const discription = 'Answer "yes" if given number is prime. Otherwise answer "no".';
 
 const isPrime = (number) => {
     if (number === 1) {
@@ -19,7 +18,7 @@ const isPrime = (number) => {
 
 const gameFunction = () => {
     const question = getRandomNumber(1, 100);
-    const rigthAnswer = isPrime(question) ? "yes" : "no";
+    const rigthAnswer = isPrime(question) ? 'yes' : 'no';
     return [question, rigthAnswer];
 };
 

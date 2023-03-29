@@ -1,8 +1,8 @@
 #!/usr/bin/env node
-import { getRandomNumber } from "../getRandomNumber.js";
-import { runGame } from "../../src/index.js";
+import getRandomNumber from '../getRandomNumber.js';
+import runGame from '../index.js';
 
-const discription = "Find the greatest common divisor of given numbers.";
+const discription = 'Find the greatest common divisor of given numbers.';
 
 const resultExpression = (a, b) => {
   let c;

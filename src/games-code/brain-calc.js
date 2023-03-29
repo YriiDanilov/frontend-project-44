@@ -1,19 +1,19 @@
 #!/usr/bin/env node
-import { getRandomNumber } from "../getRandomNumber.js";
-import { runGame } from "../../src/index.js";
+import getRandomNumber from '../getRandomNumber.js';
+import runGame from '../index.js';
 
-const discription = "What is the result of the expression?";
+const discription = 'What is the result of the expression?';
 
 const resultExpression = (num1, num2, getRandomSign) => {
   let expression = 0;
   switch (getRandomSign) {
-    case "+":
+    case '+':
       expression = num1 + num2;
       break;
-    case "-":
+    case '-':
       expression = num1 - num2;
       break;
-    case "*":
+    case '*':
       expression = num1 * num2;
       break;
     default:
@@ -22,7 +22,7 @@ const resultExpression = (num1, num2, getRandomSign) => {
 };
 
 const gameFunction = () => {
-  const operator = ["+", "-", "*"];
+  const operator = ['+', '-', '*'];
   const getRandomSign = operator[Math.floor(Math.random() * operator.length)];
   const num1 = getRandomNumber(1, 10);
   const num2 = getRandomNumber(1, 10);
