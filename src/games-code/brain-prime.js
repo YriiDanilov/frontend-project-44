@@ -1,4 +1,3 @@
-#!/usr/bin/env node
 import getRandomNumber from '../getRandomNumber.js';
 import runGame from '../index.js';
 
@@ -16,14 +15,14 @@ const isPrime = (number) => {
   return true;
 };
 
-const gameFunction = () => {
+const getAnswerAndQuestion = () => {
   const question = getRandomNumber(1, 100);
   const rigthAnswer = isPrime(question) ? 'yes' : 'no';
   return [question, rigthAnswer];
 };
 
 const brainPrime = () => {
-  runGame(discription, gameFunction);
+  runGame(discription, getAnswerAndQuestion);
 };
 
 export default brainPrime;

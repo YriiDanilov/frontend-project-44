@@ -55,7 +55,7 @@ sudo npm link
 brain-even
 ```
 
-[![демо](https://asciinema.org/a/eYT057FzLmB8un8FyvCSKYpfX.svg)](https://asciinema.org/a/eYT057FzLmB8un8FyvCSKYpfX)
+[![демо](https://asciinema.org/a/578104.svg)](https://asciinema.org/a/578104)
 
 ### 2. Калькулятор. Арифметические выражения, которые необходимо вычислить.
 
@@ -68,7 +68,7 @@ brain-even
 brain-calc
 ```
 
-[![демо](https://asciinema.org/a/b0gy24InJbImvKmzEVHo16UyC.svg)](https://asciinema.org/a/b0gy24InJbImvKmzEVHo16UyC)
+[![демо](https://asciinema.org/a/578116.svg)](https://asciinema.org/a/578116)
 
 ### 3. Определение наибольшего общего делителя.
 
@@ -81,7 +81,7 @@ brain-calc
 brain-gcd
 ```
 
-[![демо](https://asciinema.org/a/87ApoQUqXEipCAIeSNK8rXdoa.svg)](https://asciinema.org/a/87ApoQUqXEipCAIeSNK8rXdoa)
+[![демо](https://asciinema.org/a/578120.svg)](https://asciinema.org/a/578120)
 
 ### 4. Прогрессия. Поиск пропущенных чисел в последовательности чисел.
 
@@ -94,7 +94,7 @@ brain-gcd
 brain-progression
 ```
 
-[![демо](https://asciinema.org/a/87ApoQUqXEipCAIeSNK8rXdoa.svg)](https://asciinema.org/a/87ApoQUqXEipCAIeSNK8rXdoa)
+[![демо](https://asciinema.org/a/578122.svg)](https://asciinema.org/a/578122)
 
 ### 5. Определение простого числа.
 
@@ -107,4 +107,4 @@ brain-progression
 brain-prime
 ```
 
-[![демо](https://asciinema.org/a/L1trGgJF8iQpStiSWgr7i5Zwp.svg)](https://asciinema.org/a/L1trGgJF8iQpStiSWgr7i5Zwp)
+[![демо](https://asciinema.org/a/578123.svg)](https://asciinema.org/a/578123)

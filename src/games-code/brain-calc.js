@@ -1,8 +1,8 @@
-#!/usr/bin/env node
 import getRandomNumber from '../getRandomNumber.js';
 import runGame from '../index.js';
 
 const discription = 'What is the result of the expression?';
+const operator = ['+', '-', '*'];
 
 const resultExpression = (num1, num2, getRandomSign) => {
   let expression = 0;
@@ -21,8 +21,7 @@ const resultExpression = (num1, num2, getRandomSign) => {
   return expression;
 };
 
-const gameFunction = () => {
-  const operator = ['+', '-', '*'];
+const getAnswerAndQuestion = () => {
   const getRandomSign = operator[Math.floor(Math.random() * operator.length)];
   const num1 = getRandomNumber(1, 10);
   const num2 = getRandomNumber(1, 10);
@@ -32,7 +31,7 @@ const gameFunction = () => {
 };
 
 const brainCalc = () => {
-  runGame(discription, gameFunction);
+  runGame(discription, getAnswerAndQuestion);
 };
 
 export default brainCalc;
